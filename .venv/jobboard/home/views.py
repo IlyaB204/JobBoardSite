@@ -8,3 +8,9 @@ def home_view(request):
 
 def blog_view(request):
     return render(request, 'jobboard2/blog.html')
+
+def candidate_view(request):
+    return render(request, 'jobboard2/candidate.html')
+
+def jobs_view(request):
+    return render(request, 'jobboard2/jobs.html')
