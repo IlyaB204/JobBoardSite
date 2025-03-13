@@ -1,8 +1,8 @@
 <!doctype html>
-{%extends 'base.html'%}
-{%load static%}
+{% extends 'jobboard2/base.html' %}
+{% load static %}
 <html class="no-js" lang="zxx">
-
+{%block content%}
 <head>
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
@@ -64,7 +64,7 @@
                                             </li>
                                             <li><a href="#">blog <i class="ti-angle-down"></i></a>
                                                 <ul class="submenu">
-                                                    <li><a href="blog.html">blog</a></li>
+                                                    <li><a href="{%url 'blog' %}">blog</a></li>
                                                     <li><a href="single-blog.html">single-blog</a></li>
                                                 </ul>
                                             </li>
@@ -832,7 +832,7 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
     <script src="{% static 'js/mail-script.js' %}"></script>
 
 
-    <script src="{% static 'js/main.js"></script>
+    <script src="{% static 'js/main.js'%}"></script>
 </body>
-
+{%endblock%}
 </html>

@@ -6,287 +6,11 @@
   <component name="ChangeListManager">
     <list default="true" id="2b5c3c12-1c59-4125-8d25-c72b238e77ca" name="Changes" comment="Commit 1">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.venv/jobboard/home/tests.py" beforeDir="false" afterPath="$PROJECT_DIR$/.venv/jobboard/home/tests.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.venv/jobboard/home/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/.venv/jobboard/home/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.venv/jobboard/home/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/.venv/jobboard/home/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.venv/jobboard/jobboard/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/.venv/jobboard/jobboard/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.venv/jobboard/jobboard/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/.venv/jobboard/jobboard/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.venv/jobboard/templates/jobboard2/Job Board DOC/css/font-awesome.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.venv/jobboard/templates/jobboard2/Job Board DOC/css/main.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.venv/jobboard/templates/jobboard2/Job Board DOC/css/normalize.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.venv/jobboard/templates/jobboard2/Job Board DOC/fonts/FontAwesome.otf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.venv/jobboard/templates/jobboard2/Job Board DOC/fonts/fontawesome-webfont.eot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.venv/jobboard/templates/jobboard2/Job Board DOC/fonts/fontawesome-webfont.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.venv/jobboard/templates/jobboard2/Job Board DOC/fonts/fontawesome-webfont.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.venv/jobboard/templates/jobboard2/Job Board DOC/fonts/fontawesome-webfont.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.venv/jobboard/templates/jobboard2/Job Board DOC/img/logo.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.venv/jobboard/templates/jobboard2/Job Board DOC/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.venv/jobboard/templates/jobboard2/Job Board DOC/js/custom.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.venv/jobboard/templates/jobboard2/Job Board DOC/js/jquery-1.11.0.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.venv/jobboard/templates/jobboard2/Job Board DOC/js/jquery.nav.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.venv/jobboard/templates/jobboard2/Job Board DOC/syntax-highlighter/scripts/shAutoloader.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.venv/jobboard/templates/jobboard2/Job Board DOC/syntax-highlighter/scripts/shBrushAS3.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.venv/jobboard/templates/jobboard2/Job Board DOC/syntax-highlighter/scripts/shBrushAppleScript.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.venv/jobboard/templates/jobboard2/Job Board DOC/syntax-highlighter/scripts/shBrushBash.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.venv/jobboard/templates/jobboard2/Job Board DOC/syntax-highlighter/scripts/shBrushCSharp.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.venv/jobboard/templates/jobboard2/Job Board DOC/syntax-highlighter/scripts/shBrushColdFusion.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.venv/jobboard/templates/jobboard2/Job Board DOC/syntax-highlighter/scripts/shBrushCpp.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.venv/jobboard/templates/jobboard2/Job Board DOC/syntax-highlighter/scripts/shBrushCss.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.venv/jobboard/templates/jobboard2/Job Board DOC/syntax-highlighter/scripts/shBrushDelphi.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.venv/jobboard/templates/jobboard2/Job Board DOC/syntax-highlighter/scripts/shBrushDiff.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.venv/jobboard/templates/jobboard2/Job Board DOC/syntax-highlighter/scripts/shBrushErlang.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.venv/jobboard/templates/jobboard2/Job Board DOC/syntax-highlighter/scripts/shBrushGroovy.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.venv/jobboard/templates/jobboard2/Job Board DOC/syntax-highlighter/scripts/shBrushJScript.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.venv/jobboard/templates/jobboard2/Job Board DOC/syntax-highlighter/scripts/shBrushJava.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.venv/jobboard/templates/jobboard2/Job Board DOC/syntax-highlighter/scripts/shBrushJavaFX.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.venv/jobboard/templates/jobboard2/Job Board DOC/syntax-highlighter/scripts/shBrushPerl.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.venv/jobboard/templates/jobboard2/Job Board DOC/syntax-highlighter/scripts/shBrushPhp.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.venv/jobboard/templates/jobboard2/Job Board DOC/syntax-highlighter/scripts/shBrushPlain.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.venv/jobboard/templates/jobboard2/Job Board DOC/syntax-highlighter/scripts/shBrushPowerShell.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.venv/jobboard/templates/jobboard2/Job Board DOC/syntax-highlighter/scripts/shBrushPython.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.venv/jobboard/templates/jobboard2/Job Board DOC/syntax-highlighter/scripts/shBrushRuby.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.venv/jobboard/templates/jobboard2/Job Board DOC/syntax-highlighter/scripts/shBrushSass.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.venv/jobboard/templates/jobboard2/Job Board DOC/syntax-highlighter/scripts/shBrushScala.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.venv/jobboard/templates/jobboard2/Job Board DOC/syntax-highlighter/scripts/shBrushSql.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.venv/jobboard/templates/jobboard2/Job Board DOC/syntax-highlighter/scripts/shBrushVb.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.venv/jobboard/templates/jobboard2/Job Board DOC/syntax-highlighter/scripts/shBrushXml.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.venv/jobboard/templates/jobboard2/Job Board DOC/syntax-highlighter/scripts/shLegacy.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.venv/jobboard/templates/jobboard2/Job Board DOC/syntax-highlighter/styles/shCore.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.venv/jobboard/templates/jobboard2/Job Board DOC/syntax-highlighter/styles/shCoreDefault.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.venv/jobboard/templates/jobboard2/Job Board DOC/syntax-highlighter/styles/shCoreDjango.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.venv/jobboard/templates/jobboard2/Job Board DOC/syntax-highlighter/styles/shCoreEclipse.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.venv/jobboard/templates/jobboard2/Job Board DOC/syntax-highlighter/styles/shCoreEmacs.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.venv/jobboard/templates/jobboard2/Job Board DOC/syntax-highlighter/styles/shCoreFadeToGrey.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.venv/jobboard/templates/jobboard2/Job Board DOC/syntax-highlighter/styles/shCoreMDUltra.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.venv/jobboard/templates/jobboard2/Job Board DOC/syntax-highlighter/styles/shCoreMidnight.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.venv/jobboard/templates/jobboard2/Job Board DOC/syntax-highlighter/styles/shCoreRDark.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.venv/jobboard/templates/jobboard2/Job Board DOC/syntax-highlighter/styles/shThemeDefault.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.venv/jobboard/templates/jobboard2/Job Board DOC/syntax-highlighter/styles/shThemeDjango.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.venv/jobboard/templates/jobboard2/Job Board DOC/syntax-highlighter/styles/shThemeEclipse.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.venv/jobboard/templates/jobboard2/Job Board DOC/syntax-highlighter/styles/shThemeEmacs.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.venv/jobboard/templates/jobboard2/Job Board DOC/syntax-highlighter/styles/shThemeFadeToGrey.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.venv/jobboard/templates/jobboard2/Job Board DOC/syntax-highlighter/styles/shThemeMDUltra.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.venv/jobboard/templates/jobboard2/Job Board DOC/syntax-highlighter/styles/shThemeMidnight.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.venv/jobboard/templates/jobboard2/Job Board DOC/syntax-highlighter/styles/shThemeRDark.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.venv/jobboard/templates/jobboard2/css/animate.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.venv/jobboard/templates/jobboard2/css/bootstrap.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.venv/jobboard/templates/jobboard2/css/candidates.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.venv/jobboard/templates/jobboard2/css/candidates.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.venv/jobboard/templates/jobboard2/css/flaticon.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.venv/jobboard/templates/jobboard2/css/font-awesome.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.venv/jobboard/templates/jobboard2/css/gijgo.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.venv/jobboard/templates/jobboard2/css/jquery-ui.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.venv/jobboard/templates/jobboard2/css/magnific-popup.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.venv/jobboard/templates/jobboard2/css/nice-select.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.venv/jobboard/templates/jobboard2/css/owl.carousel.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.venv/jobboard/templates/jobboard2/css/slicknav.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.venv/jobboard/templates/jobboard2/css/style.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.venv/jobboard/templates/jobboard2/css/style.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.venv/jobboard/templates/jobboard2/css/theme-default.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.venv/jobboard/templates/jobboard2/css/theme-default.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.venv/jobboard/templates/jobboard2/css/themify-icons.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.venv/jobboard/templates/jobboard2/fonts/Flaticon.eot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.venv/jobboard/templates/jobboard2/fonts/Flaticon.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.venv/jobboard/templates/jobboard2/fonts/Flaticon.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.venv/jobboard/templates/jobboard2/fonts/Flaticon.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.venv/jobboard/templates/jobboard2/fonts/Flaticon.woff2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.venv/jobboard/templates/jobboard2/fonts/FontAwesome.otf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.venv/jobboard/templates/jobboard2/fonts/_flaticon.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.venv/jobboard/templates/jobboard2/fonts/fa-brands-400.eot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.venv/jobboard/templates/jobboard2/fonts/fa-brands-400.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.venv/jobboard/templates/jobboard2/fonts/fa-brands-400.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.venv/jobboard/templates/jobboard2/fonts/fa-brands-400.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.venv/jobboard/templates/jobboard2/fonts/fa-brands-400.woff2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.venv/jobboard/templates/jobboard2/fonts/fa-regular-400.eot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.venv/jobboard/templates/jobboard2/fonts/fa-regular-400.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.venv/jobboard/templates/jobboard2/fonts/fa-regular-400.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.venv/jobboard/templates/jobboard2/fonts/fa-regular-400.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.venv/jobboard/templates/jobboard2/fonts/fa-regular-400.woff2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.venv/jobboard/templates/jobboard2/fonts/fa-solid-900.eot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.venv/jobboard/templates/jobboard2/fonts/fa-solid-900.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.venv/jobboard/templates/jobboard2/fonts/fa-solid-900.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.venv/jobboard/templates/jobboard2/fonts/fa-solid-900.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.venv/jobboard/templates/jobboard2/fonts/fa-solid-900.woff2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.venv/jobboard/templates/jobboard2/fonts/flaticon.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.venv/jobboard/templates/jobboard2/fonts/fontawesome-webfont.eot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.venv/jobboard/templates/jobboard2/fonts/fontawesome-webfont.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.venv/jobboard/templates/jobboard2/fonts/fontawesome-webfont.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.venv/jobboard/templates/jobboard2/fonts/fontawesome-webfont.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.venv/jobboard/templates/jobboard2/fonts/fontawesome-webfont.woff2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.venv/jobboard/templates/jobboard2/fonts/gijgo-material.eot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.venv/jobboard/templates/jobboard2/fonts/gijgo-material.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.venv/jobboard/templates/jobboard2/fonts/gijgo-material.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.venv/jobboard/templates/jobboard2/fonts/gijgo-material.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.venv/jobboard/templates/jobboard2/fonts/themify.eot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.venv/jobboard/templates/jobboard2/fonts/themify.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.venv/jobboard/templates/jobboard2/fonts/themify.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.venv/jobboard/templates/jobboard2/fonts/themify.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.venv/jobboard/templates/jobboard2/img/about/about.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.venv/jobboard/templates/jobboard2/img/about/about_big.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.venv/jobboard/templates/jobboard2/img/about/counter.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.venv/jobboard/templates/jobboard2/img/banner/banner.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.venv/jobboard/templates/jobboard2/img/banner/bradcam.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.venv/jobboard/templates/jobboard2/img/banner/illustration.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.venv/jobboard/templates/jobboard2/img/banner/loan.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.venv/jobboard/templates/jobboard2/img/banner/property.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.venv/jobboard/templates/jobboard2/img/blog/author.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.venv/jobboard/templates/jobboard2/img/blog/blog_1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.venv/jobboard/templates/jobboard2/img/blog/blog_2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.venv/jobboard/templates/jobboard2/img/blog/blog_3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.venv/jobboard/templates/jobboard2/img/blog/blog_4.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.venv/jobboard/templates/jobboard2/img/blog/learn_about_bg.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.venv/jobboard/templates/jobboard2/img/blog/single_blog_1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.venv/jobboard/templates/jobboard2/img/blog/single_blog_2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.venv/jobboard/templates/jobboard2/img/blog/single_blog_3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.venv/jobboard/templates/jobboard2/img/blog/single_blog_4.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.venv/jobboard/templates/jobboard2/img/blog/single_blog_5.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.venv/jobboard/templates/jobboard2/img/blog/slide_thumb_1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.venv/jobboard/templates/jobboard2/img/brand/1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.venv/jobboard/templates/jobboard2/img/brand/2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.venv/jobboard/templates/jobboard2/img/brand/3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.venv/jobboard/templates/jobboard2/img/brand/4.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.venv/jobboard/templates/jobboard2/img/brand/5.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.venv/jobboard/templates/jobboard2/img/candiateds/1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.venv/jobboard/templates/jobboard2/img/candiateds/10.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.venv/jobboard/templates/jobboard2/img/candiateds/2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.venv/jobboard/templates/jobboard2/img/candiateds/3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.venv/jobboard/templates/jobboard2/img/candiateds/4.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.venv/jobboard/templates/jobboard2/img/candiateds/5.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.venv/jobboard/templates/jobboard2/img/candiateds/6.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.venv/jobboard/templates/jobboard2/img/candiateds/7.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.venv/jobboard/templates/jobboard2/img/candiateds/8.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.venv/jobboard/templates/jobboard2/img/candiateds/9.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.venv/jobboard/templates/jobboard2/img/catagory/1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.venv/jobboard/templates/jobboard2/img/catagory/2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.venv/jobboard/templates/jobboard2/img/catagory/3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.venv/jobboard/templates/jobboard2/img/catagory/4.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.venv/jobboard/templates/jobboard2/img/catagory/5.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.venv/jobboard/templates/jobboard2/img/catagory/6.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.venv/jobboard/templates/jobboard2/img/catagory/7.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.venv/jobboard/templates/jobboard2/img/catagory/8.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.venv/jobboard/templates/jobboard2/img/comment/comment_1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.venv/jobboard/templates/jobboard2/img/comment/comment_2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.venv/jobboard/templates/jobboard2/img/comment/comment_3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.venv/jobboard/templates/jobboard2/img/elements/a.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.venv/jobboard/templates/jobboard2/img/elements/a2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.venv/jobboard/templates/jobboard2/img/elements/d.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.venv/jobboard/templates/jobboard2/img/elements/disabled-check.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.venv/jobboard/templates/jobboard2/img/elements/disabled-radio.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.venv/jobboard/templates/jobboard2/img/elements/f1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.venv/jobboard/templates/jobboard2/img/elements/f2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.venv/jobboard/templates/jobboard2/img/elements/f3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.venv/jobboard/templates/jobboard2/img/elements/f4.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.venv/jobboard/templates/jobboard2/img/elements/f5.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.venv/jobboard/templates/jobboard2/img/elements/f6.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.venv/jobboard/templates/jobboard2/img/elements/f7.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.venv/jobboard/templates/jobboard2/img/elements/f8.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.venv/jobboard/templates/jobboard2/img/elements/g1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.venv/jobboard/templates/jobboard2/img/elements/g2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.venv/jobboard/templates/jobboard2/img/elements/g3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.venv/jobboard/templates/jobboard2/img/elements/g4.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.venv/jobboard/templates/jobboard2/img/elements/g5.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.venv/jobboard/templates/jobboard2/img/elements/g6.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.venv/jobboard/templates/jobboard2/img/elements/g7.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.venv/jobboard/templates/jobboard2/img/elements/g8.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.venv/jobboard/templates/jobboard2/img/elements/primary-check.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.venv/jobboard/templates/jobboard2/img/elements/primary-radio.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.venv/jobboard/templates/jobboard2/img/elements/success-check.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.venv/jobboard/templates/jobboard2/img/elements/success-radio.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.venv/jobboard/templates/jobboard2/img/explorer/1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.venv/jobboard/templates/jobboard2/img/explorer/2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.venv/jobboard/templates/jobboard2/img/explorer/3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.venv/jobboard/templates/jobboard2/img/explorer/4.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.venv/jobboard/templates/jobboard2/img/explorer/5.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.venv/jobboard/templates/jobboard2/img/explorer/6.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.venv/jobboard/templates/jobboard2/img/faq/faq.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.venv/jobboard/templates/jobboard2/img/favicon.ico" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.venv/jobboard/templates/jobboard2/img/favicon.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.venv/jobboard/templates/jobboard2/img/footer_logo.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.venv/jobboard/templates/jobboard2/img/job/1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.venv/jobboard/templates/jobboard2/img/job/2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.venv/jobboard/templates/jobboard2/img/logo.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.venv/jobboard/templates/jobboard2/img/post/next.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.venv/jobboard/templates/jobboard2/img/post/post_1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.venv/jobboard/templates/jobboard2/img/post/post_10.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.venv/jobboard/templates/jobboard2/img/post/post_2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.venv/jobboard/templates/jobboard2/img/post/post_3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.venv/jobboard/templates/jobboard2/img/post/post_4.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.venv/jobboard/templates/jobboard2/img/post/post_5.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.venv/jobboard/templates/jobboard2/img/post/post_6.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.venv/jobboard/templates/jobboard2/img/post/post_7.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.venv/jobboard/templates/jobboard2/img/post/post_8.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.venv/jobboard/templates/jobboard2/img/post/post_9.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.venv/jobboard/templates/jobboard2/img/post/preview.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.venv/jobboard/templates/jobboard2/img/property/1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.venv/jobboard/templates/jobboard2/img/property/2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.venv/jobboard/templates/jobboard2/img/property/3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.venv/jobboard/templates/jobboard2/img/property/4.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.venv/jobboard/templates/jobboard2/img/property/5.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.venv/jobboard/templates/jobboard2/img/property/6.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.venv/jobboard/templates/jobboard2/img/service/about.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.venv/jobboard/templates/jobboard2/img/svg_icon/1.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.venv/jobboard/templates/jobboard2/img/svg_icon/2.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.venv/jobboard/templates/jobboard2/img/svg_icon/3.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.venv/jobboard/templates/jobboard2/img/svg_icon/4.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.venv/jobboard/templates/jobboard2/img/svg_icon/5.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.venv/jobboard/templates/jobboard2/img/svg_icon/6.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.venv/jobboard/templates/jobboard2/img/testmonial/author.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.venv/jobboard/templates/jobboard2/blog.html" beforeDir="false" afterPath="$PROJECT_DIR$/.venv/jobboard/templates/jobboard2/blog.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.venv/jobboard/templates/jobboard2/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/.venv/jobboard/templates/jobboard2/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.venv/jobboard/templates/jobboard2/js/ajax-form.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.venv/jobboard/templates/jobboard2/js/bootstrap.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.venv/jobboard/templates/jobboard2/js/contact.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.venv/jobboard/templates/jobboard2/js/gijgo.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.venv/jobboard/templates/jobboard2/js/imagesloaded.pkgd.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.venv/jobboard/templates/jobboard2/js/isotope.pkgd.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.venv/jobboard/templates/jobboard2/js/jquery-ui.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.venv/jobboard/templates/jobboard2/js/jquery.ajaxchimp.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.venv/jobboard/templates/jobboard2/js/jquery.counterup.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.venv/jobboard/templates/jobboard2/js/jquery.form.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.venv/jobboard/templates/jobboard2/js/jquery.magnific-popup.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.venv/jobboard/templates/jobboard2/js/jquery.scrollUp.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.venv/jobboard/templates/jobboard2/js/jquery.slicknav.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.venv/jobboard/templates/jobboard2/js/jquery.validate.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.venv/jobboard/templates/jobboard2/js/mail-script.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.venv/jobboard/templates/jobboard2/js/main.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.venv/jobboard/templates/jobboard2/js/nice-select.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.venv/jobboard/templates/jobboard2/js/owl.carousel.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.venv/jobboard/templates/jobboard2/js/plugins.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.venv/jobboard/templates/jobboard2/js/popper.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.venv/jobboard/templates/jobboard2/js/range.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.venv/jobboard/templates/jobboard2/js/scrollIt.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.venv/jobboard/templates/jobboard2/js/vendor/jquery-1.12.4.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.venv/jobboard/templates/jobboard2/js/vendor/modernizr-3.5.0.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.venv/jobboard/templates/jobboard2/js/waypoints.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.venv/jobboard/templates/jobboard2/js/wow.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.venv/jobboard/templates/jobboard2/scss/_about.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.venv/jobboard/templates/jobboard2/scss/_accordion.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.venv/jobboard/templates/jobboard2/scss/_accordion_area.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.venv/jobboard/templates/jobboard2/scss/_blog.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.venv/jobboard/templates/jobboard2/scss/_blog_part.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.venv/jobboard/templates/jobboard2/scss/_bradcam.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.venv/jobboard/templates/jobboard2/scss/_btn.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.venv/jobboard/templates/jobboard2/scss/_candidates.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.venv/jobboard/templates/jobboard2/scss/_category.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.venv/jobboard/templates/jobboard2/scss/_compani.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.venv/jobboard/templates/jobboard2/scss/_contact.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.venv/jobboard/templates/jobboard2/scss/_elements.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.venv/jobboard/templates/jobboard2/scss/_extend.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.venv/jobboard/templates/jobboard2/scss/_footer.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.venv/jobboard/templates/jobboard2/scss/_header.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.venv/jobboard/templates/jobboard2/scss/_job.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.venv/jobboard/templates/jobboard2/scss/_job_details.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.venv/jobboard/templates/jobboard2/scss/_job_list.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.venv/jobboard/templates/jobboard2/scss/_mixins.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.venv/jobboard/templates/jobboard2/scss/_popular_catagory.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.venv/jobboard/templates/jobboard2/scss/_range.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.venv/jobboard/templates/jobboard2/scss/_responsive.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.venv/jobboard/templates/jobboard2/scss/_section_title.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.venv/jobboard/templates/jobboard2/scss/_service.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.venv/jobboard/templates/jobboard2/scss/_slick-nav.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.venv/jobboard/templates/jobboard2/scss/_slider.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.venv/jobboard/templates/jobboard2/scss/_team.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.venv/jobboard/templates/jobboard2/scss/_testmonial.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.venv/jobboard/templates/jobboard2/scss/_varriable.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.venv/jobboard/templates/jobboard2/scss/style.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.venv/jobboard/templates/jobboard2/scss/theme-default.scss" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -335,6 +59,8 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\project\JobBoardSite\.venv\jobboard\templates\jobboard2" />
+      <recent name="D:\project\JobBoardSite\.venv\jobboard\templates" />
       <recent name="D:\project\JobBoardSite\.venv\jobboard\templates\jobboard2\static" />
     </key>
   </component>
@@ -394,7 +120,15 @@
       <option name="project" value="LOCAL" />
       <updated>1741854917851</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Commit 1">
+      <option name="closed" value="true" />
+      <created>1741855919556</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1741855919556</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
