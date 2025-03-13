@@ -14,3 +14,6 @@ def candidate_view(request):
 
 def jobs_view(request):
     return render(request, 'jobboard2/jobs.html')
+
+def job_detail_view(request):
+    return render(request, 'jobboard2/job_details.html')
