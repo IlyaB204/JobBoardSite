@@ -17,3 +17,6 @@ def jobs_view(request):
 
 def job_detail_view(request):
     return render(request, 'jobboard2/job_details.html')
+
+def elevents_view(request):
+    return render(request, 'jobboard2/elements.html')

@@ -40,3 +40,10 @@ class HomeTest(TestCase):
         self.assertEqual(response.status_code, 200)
         self.assertEqual(no_response.status_code, 404)
         self.assertTemplateUsed(response, 'jobboard2/job_details.html')
+
+    def test_elements_view_status_code(self):
+        response = self.client.get(reverse('elements'))
+        no_response = self.client.get('jobboard2/element.html')
+        self.assertEqual(response.status_code, 200)
+        self.assertEqual(no_response.status_code, 404)
+        self.assertTemplateUsed(response, 'jobboard2/elements.html')
