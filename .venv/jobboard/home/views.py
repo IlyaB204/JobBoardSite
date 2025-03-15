@@ -20,3 +20,10 @@ def job_detail_view(request):
 
 def elevents_view(request):
     return render(request, 'jobboard2/elements.html')
+
+def single_view(request):
+    return render(request, 'jobboard2/single-blog.html')
+
+
+def contact_view(request):
+    return render(request, 'jobboard2/contact.html')
