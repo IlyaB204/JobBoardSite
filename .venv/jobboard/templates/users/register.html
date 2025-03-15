@@ -1,21 +1,65 @@
 <!DOCTYPE html>
+{% extends 'jobboard2/base.html' %}
+{% load static %}
 <html lang="en">
+  {% block content %}
   <head>
     <meta charset="UTF-8">
     <title>Форма Регистрации</title>
-    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="{% static 'css/users/style.css' %}">
   </head>
   <body>
     <div class="registration-cssave">
       <form action="" method="post">
+        {%csrf_token%}
         <h3 class="text-center">Форма авторизации</h3>
         <div class="form-group">
           <input
             class="form-control item"
-            type="email"
+            type="text"
+            name="username"
+            id="username"
+            placeholder="Имя пользователя"
+            required
+          >
+        </div>
+        <div class="form-group">
+          <input
+            class="form-control item"
+            type="text"
+            name="first_name"
+            id="first_name"
+            placeholder="Фамилия"
+            required
+          >
+        </div>
+        <div class="form-group">
+          <input
+            class="form-control item"
+            type="text"
+            name="name"
+            id="name"
+            placeholder="Имя"
+            required
+          >
+        </div>
+        <div class="form-group">
+          <input
+            class="form-control item"
+            type="text"
+            name="last_name"
+            id="last_name"
+            placeholder="Отчество"
+            required
+          >
+        </div>
+        <div class="form-group">
+          <input
+            class="form-control item"
+            type="text"
             name="email"
             id="email"
-            placeholder="Логин"
+            placeholder="Email"
             required
           >
         </div>
@@ -23,12 +67,25 @@
           <input
             class="form-control item"
             type="password"
-            name="password"
+            name="password1"
             maxlength="20"
 			minlength="6"
 			pattern="^[a-zA-Z0-9]*$"
-            id="password"
+            id="password1"
             placeholder="Пароль"
+            required
+          >
+        </div>
+        <div class="form-group">
+          <input
+            class="form-control item"
+            type="password"
+            name="password2"
+            maxlength="20"
+			minlength="6"
+			pattern="^[a-zA-Z0-9]*$"
+            id="password2"
+            placeholder="Повторите пароль"
             required
           >
         </div>
@@ -37,10 +94,11 @@
             class="btn btn-primary btn-block create-account"
             type="submit"
           >
-            Войти
+            Зарегистрироваться
           </button>
         </div>
       </form>
     </div>
   </body>
+  {% endblock %}
 </html>
