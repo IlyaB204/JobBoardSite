@@ -21,3 +21,24 @@ class TestLoginAndRegister(TestCase):
         no_response = self.client.get('jobboard/users/registers.html')
         self.assertEqual(response.status_code, 200)
         self.assertEqual(no_response.status_code, 404)
+
+    def test_login_view_status_code(self):
+        response = self.client.get(reverse('login'))
+        no_response = self.client.get('users/logins.html')
+        self.assertEqual(response.status_code, 200)
+        self.assertEqual(no_response.status_code, 404)
+        self.assertTemplateUsed(response, 'users/login.html')
+
+    def test_login_status_code(self):
+        response = self.client.post(reverse('login'),{
+            'username': 'asus',
+            'password': 'secret',
+        })
+        self.assertEqual(response.status_code, 302)
+
+    def  test_logout_view_status_code(self):
+        response = self.client.get(reverse('logout'))
+        no_response = self.client.get('users/logouts.html')
+        self.assertEqual(response.status_code, 200)
+        self.assertEqual(no_response.status_code, 404)
+        self.assertTemplateUsed(response, 'users/logout.html')

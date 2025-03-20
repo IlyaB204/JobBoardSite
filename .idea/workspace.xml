@@ -4,16 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2b5c3c12-1c59-4125-8d25-c72b238e77ca" name="Changes" comment="Commit today">
+    <list default="true" id="2b5c3c12-1c59-4125-8d25-c72b238e77ca" name="Changes" comment="Commit register_view 15.03.2025">
+      <change afterPath="$PROJECT_DIR$/.venv/jobboard/templates/users/logout.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.venv/jobboard/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/.venv/jobboard/db.sqlite3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.venv/jobboard/jobboard/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/.venv/jobboard/jobboard/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.venv/jobboard/templates/jobboard2/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/.venv/jobboard/templates/jobboard2/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.venv/jobboard/templates/users/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/.venv/jobboard/templates/users/login.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.venv/jobboard/templates/users/register.html" beforeDir="false" afterPath="$PROJECT_DIR$/.venv/jobboard/templates/users/register.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.venv/jobboard/users/migrations/0001_initial.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.venv/jobboard/users/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/.venv/jobboard/users/models.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.venv/jobboard/users/tests.py" beforeDir="false" afterPath="$PROJECT_DIR$/.venv/jobboard/users/tests.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.venv/jobboard/users/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/.venv/jobboard/users/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.venv/jobboard/users/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/.venv/jobboard/users/views.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -24,8 +22,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="HTML File" />
         <option value="Python Script" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -180,12 +178,21 @@
       <option name="project" value="LOCAL" />
       <updated>1742024497210</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Commit register_view 15.03.2025">
+      <option name="closed" value="true" />
+      <created>1742042784940</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1742042784940</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Commit 1" />
     <MESSAGE value="Commit today" />
-    <option name="LAST_COMMIT_MESSAGE" value="Commit today" />
+    <MESSAGE value="Commit register_view 15.03.2025" />
+    <option name="LAST_COMMIT_MESSAGE" value="Commit register_view 15.03.2025" />
   </component>
 </project>
