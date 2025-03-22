@@ -1,3 +1,5 @@
+from http.client import responses
+
 from django.test import TestCase
 from django.urls import reverse
 
@@ -42,3 +44,12 @@ class TestLoginAndRegister(TestCase):
         self.assertEqual(response.status_code, 200)
         self.assertEqual(no_response.status_code, 404)
         self.assertTemplateUsed(response, 'users/logout.html')
+
+
+    def test_edit_view_status_code(self):
+        response =self.client.get(reverse('edit'))
+        no_response = self.client.get('users/edits.html')
+        self.assertEqual(response.status_code, 200)
+        self.assertEqual(no_response.status_code, 404)
+        self.assertTemplateUsed(response,'users/edit.html')
+

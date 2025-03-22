@@ -77,7 +77,7 @@
                                 <div class="Appointment">
                                     {%if user.is_authenticated%}
                                     <div class="phone_num d-none d-xl-block">
-                                        <a href="{%url 'logout' %}">{{user.username}}</a>
+                                        <a href="{%url 'edit' %}">{{user.username}}</a>
                                     </div>
                                     {%else%}
                                     <div class="phone_num d-none d-xl-block">

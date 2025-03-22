@@ -1,0 +1,56 @@
+{% extends 'jobboard2/base.html' %}
+{%load static%}
+<html lang="en">
+  {% block content %}
+  <head>
+    <meta charset="UTF-8">
+    <title>Форма Регистрации</title>
+    <link rel="stylesheet" href="{% static 'css/users/edit.css' %}">
+  </head>
+  <body>
+  <form action="" method="post" enctype="multipart/form-data">
+    {%csrf_token%}
+<div id="profile-edit-save">
+
+  <button id="editSave">Сохранить профиль</button>
+</div>
+<div id="profile-edit-area">
+
+  <div id="edit-area-left">
+      <table>
+        <tbody>
+          <tr>
+            <td class="edit-title">Фамилия:</td>
+            <td><input type="text" name="first_name" class="profileInputBox" value="{{user.first_name}}"/></td>
+          </tr>
+          <tr>
+            <td class="edit-title">Имя:</td>
+            <td><input type="text" name="name" class="profileInputBox" value="{{user.name}}"/></td>
+          </tr>
+          <tr>
+            <td class="edit-title">Отчество:</td>
+            <td><input type="text" name="last_name" class="profileInputBox" value="{{user.last_name}}"/></td>
+          </tr>
+          <tr>
+            <td class="edit-title">E-mail:</td>
+            <td><input type="text" name = 'email' class="profileInputBox" value="{{user.email}}"/></td>
+          </tr>
+        </tbody>
+      </table>
+  </div>
+  <div>
+            <label for="profile_picture">Profile Picture:</label>
+            <img src="{{ user.profile_pictures.url }}" alt="Profile Picture" onerror="this.onerror=null; this.src='{% static 'img/users/default.png' %}';">
+            <input type="file" id="profile_picture" name="profile_picture">
+    </div>
+
+
+
+</div>
+    </form>
+
+  <a href="{%url 'logout'%}"> <button class="custom-btn btn-7"><span>LogOut</span></button></a>
+  </body>
+
+</html>
+{%endblock%}

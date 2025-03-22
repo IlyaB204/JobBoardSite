@@ -46,3 +46,29 @@ def logout_view(request):
         logout(request)
         return redirect('home')
     return render(request, 'users/logout.html')
+
+
+def edit_view(request):
+    if request.method == 'POST':
+        first_name = request.POST.get('first_name')
+        name = request.POST.get('name')
+        last_name = request.POST.get('last_name')
+        profile_picture = request.FILES.get('profile_picture')
+        email = request.POST.get('email')
+
+        user = request.user
+        user.first_name = first_name
+        user.last_name = last_name
+        user.name = name
+        user.email = email
+
+
+        if profile_picture:
+            print("Файл загружен:", profile_picture)
+            user.profile_pictures = profile_picture
+
+        user.save()
+
+        return redirect('home')
+
+    return render(request, 'users/edit.html', {'user': request.user})
