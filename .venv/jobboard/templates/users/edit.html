@@ -40,7 +40,7 @@
   </div>
   <div>
             <label for="profile_picture">Profile Picture:</label>
-            <img src="{{ user.profile_pictures.url }}" alt="Profile Picture" onerror="this.onerror=null; this.src='{% static 'img/users/default.png' %}';">
+         <img src="{% if user.profile_pictures %}{{ user.profile_pictures.url }}{% else %}/img/users/default.png{% endif %}" alt="Profile Picture">
             <input type="file" id="profile_picture" name="profile_picture">
     </div>
 
