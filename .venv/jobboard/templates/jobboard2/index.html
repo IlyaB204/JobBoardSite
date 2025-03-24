@@ -78,7 +78,7 @@
                                 <div class="Appointment">
                                     {%if user.is_authenticated%}
                                     <div class="phone_num d-none d-xl-block">
-                                        <a href="{%url 'edit' %}">
+                                        <a href="{%url 'edit'  %}">
                                             <div class="profile-picture">
                                                 <img src="{% if user.profile_pictures %}{{ user.profile_pictures.url }}{% else %}/img/users/default.png{% endif %}" alt="Profile Picture">
                                             </div>
@@ -90,7 +90,7 @@
                                     </div>
                                     {%endif%}
                                     <div class="d-none d-lg-block">
-                                        <a class="boxed-btn3" href="#">Post a Job</a>
+                                        <a class="boxed-btn3" href="{%url 'vacancy'%}">Post a Job</a>
                                     </div>
                                 </div>
                             </div>
@@ -627,7 +627,7 @@
                     <div class="searching_text">
                         <h3>Looking for a Expert?</h3>
                         <p>We provide online instant cash loans with quick approval </p>
-                        <a href="#" class="boxed-btn3">Post a Job</a>
+                        <a href="{%url 'vacancy'%}" class="boxed-btn3">Post a Job</a>
                     </div>
                 </div>
             </div>

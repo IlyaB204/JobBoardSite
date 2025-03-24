@@ -1,0 +1,99 @@
+.property-agent-info {
+    background-color: #f1f3f6;
+    margin-bottom: 40px;
+}
+.property-agent-info .agent-detail {
+    border: medium none;
+    margin: 0;
+    padding: 0;
+}
+.property-agent-info .agent-detail .info {
+    background-color: #fff;
+    border: 1px solid #e3e3e3;
+    padding: 20px 15px;
+}
+.property-agent-info:after, .property-agent-info:before {
+    content: " ";
+    display: table;
+}
+.property-agent-info:after {
+    clear: both;
+}
+.agent-detail .image {
+    padding: 0;
+}
+
+.form-style {
+    background-color: #f1f3f6;
+    padding: 40px 25px;
+}
+
+.center {
+    float: none;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.form-control{border-color:#e3e3e3}
+
+.btn-default-color, .btn-default-color:focus {
+    background-color: transparent;
+    border-color: #adb2b6;
+    color: #adb2b6;
+}
+.btn-default, .btn-default-color, .btn-fullcolor {
+    border-radius: 4px;
+    text-transform: uppercase;
+    transition: all 0.3s ease 0s;
+}
+
+.form-control.required{height:307px}
+
+
+.divider {
+    -moz-user-select: none;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.8);
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+    box-sizing: border-box;
+    height: 0;
+    line-height: 1;
+    margin: 1rem 0;
+}
+.horizontal.divider {
+    background-color: transparent;
+    border: medium none;
+    color: rgba(0, 0, 0, 0.8);
+    font-size: 1rem;
+    font-weight: 700;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.horizontal.divider {
+    height: auto;
+    left: 0;
+    line-height: 1;
+    margin: 1rem 1.5rem;
+    padding: 0;
+    position: relative;
+    top: 0;
+}
+.horizontal.divider:after, .horizontal.divider:before {
+    border-bottom: 1px solid rgba(255, 255, 255, 0.8);
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+    content: " ";
+    height: 0;
+    position: absolute;
+    top: 50%;
+    width: 50%;
+    z-index: 3;
+}
+.horizontal.divider:before {
+    left: 0;
+    margin-left: -8.2rem;
+}
+.horizontal.divider:after {
+    left: auto;
+    margin-right: -8.2rem;
+    right: 0;
+}
