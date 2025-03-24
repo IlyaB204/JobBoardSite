@@ -214,3 +214,16 @@ background: linear-gradient(0deg, rgba(255,151,0,1) 0%, rgba(251,75,2,1) 100%);
 .btn-7 span:hover:after {
   width: 100%;
 }
+
+
+.profile-picture {
+    width: 150px; /* фиксированная ширина */
+    height: 150px; /* фиксированная высота */
+    overflow: hidden; /* скрывает лишнюю часть изображения */
+    border-radius: 50%; /* делает изображение круглым (при желании) */
+}
+
+.profile-picture img {
+    width: 100%; /* растягивает изображение по ширине контейнера */
+    height: auto; /* сохраняет пропорции изображения */
+}

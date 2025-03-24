@@ -1,7 +1,7 @@
 <!doctype html>
 {% extends 'jobboard2/base.html' %}
 {% load static %}
-<html class="no-js" lang="zxx">
+<html class="no-js" lang="zxx" xmlns="http://www.w3.org/1999/html">
 {%block content%}
 <head>
     <meta charset="utf-8">
@@ -25,6 +25,7 @@
     <link rel="stylesheet" href="{% static 'css/gijgo.css' %}">
     <link rel="stylesheet" href="{% static 'css/animate.min.css' %}">
     <link rel="stylesheet" href="{% static 'css/slicknav.css' %}">
+    <link rel="stylesheet" href="{% static 'css/img_profile.css' %}">
 
     <link rel="stylesheet" href="{% static 'css/style.css' %}">
     <!-- <link rel="stylesheet" href="css/responsive.css"> -->
@@ -44,7 +45,7 @@
                         <div class="row align-items-center">
                             <div class="col-xl-3 col-lg-2">
                                 <div class="logo">
-                                    <a href="index.html">
+                                    <a href="{% url 'home' %}">
                                         <img src="{% static 'img/logo.png' %}" alt="">
                                     </a>
                                 </div>
@@ -77,11 +78,15 @@
                                 <div class="Appointment">
                                     {%if user.is_authenticated%}
                                     <div class="phone_num d-none d-xl-block">
-                                        <a href="{%url 'edit' %}">{{user.username}}</a>
+                                        <a href="{%url 'edit' %}">
+                                            <div class="profile-picture">
+                                                <img src="{% if user.profile_pictures %}{{ user.profile_pictures.url }}{% else %}/img/users/default.png{% endif %}" alt="Profile Picture">
+                                            </div>
+                                        </a>
                                     </div>
                                     {%else%}
                                     <div class="phone_num d-none d-xl-block">
-                                        <a href="{%url 'login' %}">Log in</a>
+                                        <a href="{%url 'login'%}"> LogIn</a>
                                     </div>
                                     {%endif%}
                                     <div class="d-none d-lg-block">

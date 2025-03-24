@@ -38,12 +38,13 @@
         </tbody>
       </table>
   </div>
-  <div>
-            <label for="profile_picture">Profile Picture:</label>
-         <img src="{% if user.profile_pictures %}{{ user.profile_pictures.url }}{% else %}/img/users/default.png{% endif %}" alt="Profile Picture">
-            <input type="file" id="profile_picture" name="profile_picture">
+    <label>Profile Picture:</label>
+  <div class="profile-picture">
+
+         <img src="{% if user.profile_pictures %}{{ user.profile_pictures.url }}{% else %}/img/users/default.png{% endif %}" alt="Profile Picture" onclick="document.getElementById('fileInput').click();" onchange="previewImage(event)">
     </div>
 
+    <input type="file" id="fileInput" name="profile_picture">
 
 
 </div>
